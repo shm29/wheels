@@ -1,0 +1,116 @@
+.header {
+  font-family: Raleway;
+  color: #ededed;
+  background: url('../img/bg-image.png') no-repeat 50% 50%;
+  &__inner {
+    height: 100vh;
+    max-width: 1535px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  &__logo {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    flex-shrink: 1;
+    margin-top: 115px;
+  }
+  &__content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    &-title {
+      margin: 0px;
+      font-size: 48px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+    }
+    &-description {
+      margin-top: 29px;
+      font-size: 24px;
+      text-align: end;
+      line-height: 40px;
+      letter-spacing: 3px;
+      white-space: pre-line;
+    }
+  }
+  &__mouse-icon {
+    align-self: center;
+    margin-bottom: 86px;
+  }
+}
+
+.sticky-menu {
+  display: flex;
+  width: 100%;
+  height: 82px;
+  box-shadow: 1px 1px 27px rgba(0, 0, 0, 0.16);
+  font-family: Raleway;
+  &__nav {
+    width: 1535px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+      color: #1c1c1c;
+      font-size: 30px;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: start;
+    }
+    &-link {
+      color: #3b3b3b;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:first-of-type {
+        margin-left: 350px;
+      }
+    }
+  }
+}
+
+.about-us {
+  font-family: Raleway;
+  color: #3b3b3b;
+  height: 325px;
+  &__inner {
+    max-width: 1535px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    color: #1d1d1d;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 52px;
+    margin-bottom: 0px;
+  }
+  &__subtitle {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  &__description {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.some-stats {
+  height: 100%;
+  background: url('../img/stats-bg.jpg') no-repeat;
+  color: #ededed;
+  font-family: Raleway;
+  &__inner {
+    max-width: 1535px;
+    margin: 0 auto;
+  }
+}

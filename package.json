@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shm29/wheels.git"
+  },
   "author": "Artur Sholomko",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shm29/wheels/issues"
+  },
+  "homepage": "https://github.com/shm29/wheels#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
