@@ -9,168 +9,176 @@
   <link rel="stylesheet" href="/css/style.css">
   <title>Wheels</title>
 </head>
-<body>
-  <header class="header">
-    <div class="header__inner">
-      <h2 class="header__logo">Wheels</h2>
-      <div class="header__content">
+<body class="page">
+  <section class="hero">
+    <div class="hero__inner">
+      <header class="header">
+        <h2 class="header__logo title ">Wheels</h2>
+        <div class="menu">
+          <input type="checkbox" id="check-menu" class="menu-check">
+          <label for="check-menu" class="menu__label">Menu</label>
+          <div class="burger-line first"></div>
+          <div class="burger-line second"></div>
+          <div class="burger-line third"></div>
+          <div class="burger-line fourth"></div>
+          <nav class="menu__nav">
+            <a href="#about-us" class="link">About us</a>
+            <a href="#products" class="link">Products</a>
+            <a href="#" class="link">Services</a>
+            <a href="#team" class="link">Our Team</a>
+            <a href="#social" class="link">Blog</a>
+            <a href="#footer" class="link">Contacts</a>
+          </nav>
+        </div>  
+      </header>
+      <section class="header__content">
         <h1 class="header__content-title">Welcome to Wheels</h1>
         <p class="header__content-description">Your free psd template,
-          perfect for your next big idea
-          <em>by Pawel Betkowski</em>
+        perfect for your next big idea
+        <em>by Pawel Betkowski</em>
         </p>
-      </div>
+      </section>
       <div class="header__mouse-icon">
         <img src="./img/mouse-icon.svg">
       </div>
     </div>
-  </header>
+  </section>
   <section class="sticky-menu">
     <nav class="sticky-menu__nav">
-      <h2 class="sticky-menu__nav-logo">Wheels</h2>
-      <a href="#" class="sticky-menu__nav-link">About us</a>
-      <a href="#" class="sticky-menu__nav-link">Products</a>
+      <h2 class="sticky-menu__logo logo">Wheels</h2>
+      <a href="#about-us" class="sticky-menu__nav-link">About us</a>
+      <a href="#products" class="sticky-menu__nav-link">Products</a>
       <a href="#" class="sticky-menu__nav-link">Services</a>
-      <a href="#" class="sticky-menu__nav-link">Our Team</a>
-      <a href="#" class="sticky-menu__nav-link">Blog</a>
-      <a href="#" class="sticky-menu__nav-link">Contacts</a>
+      <a href="#team" class="sticky-menu__nav-link">Our Team</a>
+      <a href="#social" class="sticky-menu__nav-link">Blog</a>
+      <a href="#footer" class="sticky-menu__nav-link">Contacts</a>
     </nav>
   </section>
-  <section class="about-us">
-    <div class="about-us__inner">
-      <h2 class="about-us__title">About Us</h2>
+  <div class="page__inner">
+    <section class="about-us" id="about-us">
+      <h2 class="about-us__title title">About Us</h2>
       <h3 class="about-us__subtitle">Let’s talk about what makes your company great.</h3>
       <img src="./img/bicycle.png" alt="bicycle" class="about-us__icon">
       <p class="about-us__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet odio molestie, rutrum lacus et, suscipit sem. Fusce eu tristique neque. Nullam in euismod magna. Vestibulum fermentum a dui non vulputate. Morbi hendrerit rhoncus velit at pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse quis sapien neque. Nunc pulvinar vel velit eget porttitor. Sed at sapien luctus nulla lobortis ullamcorper. Proin sit amet nulla quis libero dictum tempor eget in dui. Proin posuere eleifend vehicula.</p>
-    </div>
-  </section>
+    </section>
+  </div>
   <section class="some-stats">
-    <div class="some-stats__inner">
-      <h2 class="some-stats__title">Some Statistics</h2>
-      <p class="some-stats__description">Showing what your company already acomplished is always a good selling point.</p>
-      <div class="some-stats__items">
-        <div class="some-stats__items-box">
-          <h1 class="some-stats__items-number">409</h1>
-          <p class="some-stats__items-text">Bikes sold</p>
-        </div>
-        <div class="some-stats__items-box">
-          <h1 class="some-stats__items-number">2012</h1>
-          <p class="some-stats__items-text">Year the
-            Company Started</p>
-        </div>
-        <div class="some-stats__items-box">
-          <h1 class="some-stats__items-number">0</h1>
-          <p class="some-stats__items-text">Unsatisfied Customers</p>
-        </div>
+    <h2 class="some-stats__title title">Some Statistics</h2>
+    <p class="some-stats__description">Showing what your company already acomplished is always a good selling point.</p>
+    <div class="some-stats__items">
+      <div class="some-stats__items-box">
+        <h1 class="some-stats__items-number">409</h1>
+        <p class="some-stats__items-text">Bikes sold</p>
+      </div>
+      <div class="some-stats__items-box">
+        <h1 class="some-stats__items-number">2012</h1>
+        <p class="some-stats__items-text">Year the
+          Company Started</p>
+      </div>
+      <div class="some-stats__items-box">
+        <h1 class="some-stats__items-number">0</h1>
+        <p class="some-stats__items-text">Unsatisfied Customers</p>
       </div>
     </div>
   </section>
-  <section class="products">
-    <div class="products__inner">
-      <h2 class="products__title">Featured Products</h2>
-      <p class="products__subtitle">You chance to shine</p>
-      <div class="products__card">
-        <img src="./img/orange_bike.png" alt="Orange Bike" class="products__card-img">
-        <h3 class="products__card-name">Orangez</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
-      <div class="products__card">
-        <img src="./img/green_bike.png" alt="Green Devil Bike" class="products__card-img">
-        <h3 class="products__card-name">Green Devil</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
-      <div class="products__card">
-        <img src="./img/blue_bike.png" alt="Blue Lagoon Bike" class="products__card-img">
-        <h3 class="products__card-name">Blue Lagoon</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
-      <div class="products__card">
-        <img src="./img/pink_bike.png" alt="Pink Lady Bike" class="products__card-img">
-        <h3 class="products__card-name">Pink Lady</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
-      <div class="products__card">
-        <img src="./img/purple_bike.png" alt="Purple Rain Bike" class="products__card-img">
-        <h3 class="products__card-name">Purple Rain</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
-      <div class="products__card">
-        <img src="./img/grey_bike.png" alt="The Mist Bike" class="products__card-img">
-        <h3 class="products__card-name">The Mist</h3>
-        <h2 class="products__card-price">$399</h2>
-        <a href="#" class="products__card-link">Learn more</a>
-      </div>
+  <section class="products page__inner" id="products">
+    <h2 class="products__title title">Featured Products</h2>
+    <p class="products__subtitle">You chance to shine</p>
+    <div class="products__card">
+      <img src="./img/orange_bike.png" alt="Orange Bike" class="products__card-img">
+      <h3 class="products__card-name">Orangez</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
+    </div>
+    <div class="products__card">
+      <img src="./img/green_bike.png" alt="Green Devil Bike" class="products__card-img">
+      <h3 class="products__card-name">Green Devil</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
+    </div>
+    <div class="products__card">
+      <img src="./img/blue_bike.png" alt="Blue Lagoon Bike" class="products__card-img">
+      <h3 class="products__card-name">Blue Lagoon</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
+    </div>
+    <div class="products__card">
+      <img src="./img/pink_bike.png" alt="Pink Lady Bike" class="products__card-img">
+      <h3 class="products__card-name">Pink Lady</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
+    </div>
+    <div class="products__card">
+      <img src="./img/purple_bike.png" alt="Purple Rain Bike" class="products__card-img">
+      <h3 class="products__card-name">Purple Rain</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
+    </div>
+    <div class="products__card">
+      <img src="./img/grey_bike.png" alt="The Mist Bike" class="products__card-img">
+      <h3 class="products__card-name">The Mist</h3>
+      <h2 class="products__card-price title">$399</h2>
+      <a href="#" class="products__card-link">Learn more</a>
     </div>
   </section>
-  <section class="team">
-    <div class="team__inner">
-      <h2 class="team__title">Meet the Team</h2>
-      <p class="team__subtitle">People who make the magic happen</p>
-      <div class="team__profile">
-        <img src="./img/ian.png" alt="Ian's profile photo" class="team__profile-picture">
-        <h2 class="team__profile-name">Ian</h2>
-        <p class="team__profile-description">Founder</p>
-      </div>
-      <div class="team__profile">
-        <img src="./img/sarah.png" alt="Sarah's profile photo" class="team__profile-picture">
-        <h2 class="team__profile-name">Sarah</h2>
-        <p class="team__profile-description">Designer</p>
-      </div>
-      <div class="team__profile">
-        <img src="./img/juan.png" alt="Juan's profile photo" class="team__profile-picture">
-        <h2 class="team__profile-name">Juan</h2>
-        <p class="team__profile-description">Office Wizard</p>
-      </div>
+  <section class="team" id="team">
+    <h2 class="team__title title">Meet the Team</h2>
+    <p class="team__subtitle">People who make the magic happen</p>
+    <div class="team__profile">
+      <img src="./img/ian.png" alt="Ian's profile photo" class="team__profile-picture">
+      <h2 class="team__profile-name title">Ian</h2>
+      <p class="team__profile-description">Founder</p>
+    </div>
+    <div class="team__profile">
+      <img src="./img/sarah.png" alt="Sarah's profile photo" class="team__profile-picture">
+      <h2 class="team__profile-name title">Sarah</h2>
+      <p class="team__profile-description">Designer</p>
+    </div>
+    <div class="team__profile">
+      <img src="./img/juan.png" alt="Juan's profile photo" class="team__profile-picture">
+      <h2 class="team__profile-name title">Juan</h2>
+      <p class="team__profile-description">Office Wizard</p>
     </div>
   </section>
-  <section class="social">
-    <div class="social__inner">
-      <h2 class="social__title">#Social Showcase</h2>
-      <p class="social__subtitle">Show your customers why your Instagram account is the one they should follow</p>
-      <img src="./img/image1.jpg" alt="Photo of white bicycle in autumn theme" class="social__photos">
-      <img src="./img/image2.jpg" alt="Photo of bicycle with pink handlebar" class="social__photos">
-      <img src="./img/image3.jpg" alt="Photo of bicycle and a girl with a hat" class="social__photos">
-      <img src="./img/image4.jpg" alt="Photo of stylish bike" class="social__photos">
-      <h3 class="social__contact">Follow <span class=social__contact__underline>@wheelz</span> on instagram</h3>
-    </div>
+  <section class="social" id="social">
+    <h2 class="social__title title">#Social Showcase</h2>
+    <p class="social__subtitle">Show your customers why your Instagram account is the one they should follow</p>
+    <img src="./img/image1.jpg" alt="Photo of white bicycle in autumn theme" class="social__photos">
+    <img src="./img/image2.jpg" alt="Photo of bicycle with pink handlebar" class="social__photos">
+    <img src="./img/image3.jpg" alt="Photo of bicycle and a girl with a hat" class="social__photos">
+    <img src="./img/image4.jpg" alt="Photo of stylish bike" class="social__photos">
+    <h3 class="social__contact">Follow <span class=social__contact__underline>@wheelz</span> on instagram</h3>
   </section>
-  <footer class="footer">
-    <div class="footer__inner">
-      <h2 class="footer__logo">Wheelz</h2>
-      <nav class="footer__nav">
-        <h3 class="footer__nav-title">Quick Links</h3>
-        <a href="#" class="footer__nav-link">About us</a>
-        <a href="#" class="footer__nav-link">Products</a>
-        <a href="#" class="footer__nav-link">Services</a>
-        <a href="#" class="footer__nav-link">Our Team</a>
-        <a href="#" class="footer__nav-link">Blog</a>
-        <a href="#" class="footer__nav-link">Contact</a>
-      </nav>
-      <nav class="footer__nav">
-        <h3 class="footer__nav-title">Quick Links 2</h3>
-        <a href="#" class="footer__nav-link">FAQ</a>
-        <a href="#" class="footer__nav-link">Terms & Conditions</a>
-        <a href="#" class="footer__nav-link">Something Else</a>
-        <a href="#" class="footer__nav-link">Anything</a>
-        <a href="#" class="footer__nav-link">Your Ideas</a>
-        <a href="#" class="footer__nav-link">Right here</a>
-      </nav>
-      <nav class="footer__nav-social">
-        <h3 class="footer__nav-title">Let's get social!</h3>
-        <div class="footer__nav-icons">
-          <a href="" class="facebook"></a>
-          <a href="" class="linkedin"></a>
-          <a href="" class="instagram"></a>
-          <a href="" class="twitter"></a>
-        </div>
-      </nav>
-      <img src="./img/google-maps.png" alt="Map of where you can find us" class="footer__nav-map">
-    </div>
+  <footer class="footer" id="footer">
+    <h2 class="footer__logo title">Wheelz</h2>
+    <nav class="footer__nav">
+      <h3 class="footer__nav-title">Quick Links</h3>
+      <a href="#about-us" class="footer__nav-link">About us</a>
+      <a href="#products" class="footer__nav-link">Products</a>
+      <a href="#" class="footer__nav-link">Services</a>
+      <a href="#team" class="footer__nav-link">Our Team</a>
+      <a href="#social" class="footer__nav-link">Blog</a>
+      <a href="#footer" class="footer__nav-link">Contact</a>
+    </nav>
+    <nav class="footer__nav">
+      <h3 class="footer__nav-title">Quick Links 2</h3>
+      <a href="#" class="footer__nav-link">FAQ</a>
+      <a href="#" class="footer__nav-link">Terms & Conditions</a>
+      <a href="#" class="footer__nav-link">Something Else</a>
+      <a href="#" class="footer__nav-link">Anything</a>
+      <a href="#" class="footer__nav-link">Your Ideas</a>
+      <a href="#" class="footer__nav-link">Right here</a>
+    </nav>
+    <nav class="footer__nav-social">
+      <h3 class="footer__nav-title">Let's get social!</h3>
+      <div class="footer__nav-icons">
+        <a href="" class="facebook"></a>
+        <a href="" class="linkedin"></a>
+        <a href="" class="instagram"></a>
+        <a href="" class="twitter"></a>
+      </div>
+    </nav>
+    <img src="./img/google-maps.png" alt="Map of where you can find us" class="footer__nav-map">
   </footer>
 </body>
 </html>
